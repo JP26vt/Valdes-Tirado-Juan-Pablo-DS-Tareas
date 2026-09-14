@@ -19,7 +19,8 @@ Enumera todos los componentes usados:
 
 ## Diagrama del circuito
 
-<>https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Diagrama/Captura%20de%20pantalla%202026-09-13%20215759.png
+<<img width="775" height="519" alt="Captura de pantalla 2026-09-13 215759" src="https://github.com/user-attachments/assets/21efc7c7-4933-4ce8-be2a-42fdc6feb5b9" />
+>
 
 
 ## Código
