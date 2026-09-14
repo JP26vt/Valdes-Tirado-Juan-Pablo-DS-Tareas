@@ -19,7 +19,7 @@ Enumera todos los componentes usados:
 
 ## Diagrama del circuito
 
-<img src="Diagrama/Led 13.png" width="300">
+<Captura de pantalla 2026-09-13 215759.png>
 
 
 ## Código
