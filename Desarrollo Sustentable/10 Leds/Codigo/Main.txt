@@ -1,118 +1,30 @@
-// Encender 10 LEDs - Arduino Uno R3
-// Cada LED tiene su propia variable
-
-int led1 = 2;
-int led2 = 3;
-int led3 = 4;
-int led4 = 5;
-int led5 = 6;
-int led6 = 7;
-int led7 = 8;
-int led8 = 9;
-int led9 = 10;
-int led10 = 11;
+int led_red = 0; // the red LED is connected to Pin 0 of the Arduino
+int led_yellow = 1; // the yellow LED is connected to Pin 1 of the Arduino
+int led_green = 2; // the green LED is connected to Pin 2 of the Arduino
 
 void setup() {
-  pinMode(led1, OUTPUT);
-  pinMode(led2, OUTPUT);
-  pinMode(led3, OUTPUT);
-  pinMode(led4, OUTPUT);
-  pinMode(led5, OUTPUT);
-  pinMode(led6, OUTPUT);
-  pinMode(led7, OUTPUT);
-  pinMode(led8, OUTPUT);
-  pinMode(led9, OUTPUT);
-  pinMode(led10, OUTPUT);
+  // set up all the LEDs as OUTPUT
+  pinMode(led_red, OUTPUT);
+  pinMode(led_yellow, OUTPUT);
+  pinMode(led_green, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-  digitalWrite(led3, HIGH);
-  digitalWrite(led4, HIGH);
-  digitalWrite(led5, HIGH);
-  digitalWrite(led6, HIGH);
-  digitalWrite(led7, HIGH);
-  digitalWrite(led8, HIGH);
-  digitalWrite(led9, HIGH);
-  digitalWrite(led10, HIGH);
-}
-****************************************************************************************************************************
-// Parpadeo secuencial de 10 LEDs - Arduino Uno R3
-// Cada LED tiene su propia variable
-
-int led1 = 2;
-int led2 = 3;
-int led3 = 4;
-int led4 = 5;
-int led5 = 6;
-int led6 = 7;
-int led7 = 8;
-int led8 = 9;
-int led9 = 10;
-int led10 = 11;
-
-void setup() {
-  pinMode(led1, OUTPUT);
-  pinMode(led2, OUTPUT);
-  pinMode(led3, OUTPUT);
-  pinMode(led4, OUTPUT);
-  pinMode(led5, OUTPUT);
-  pinMode(led6, OUTPUT);
-  pinMode(led7, OUTPUT);
-  pinMode(led8, OUTPUT);
-  pinMode(led9, OUTPUT);
-  pinMode(led10, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(led1, HIGH);
-  delay(500);
-  digitalWrite(led1, LOW);
-  delay(500);
-
-  digitalWrite(led2, HIGH);
-  delay(500);
-  digitalWrite(led2, LOW);
-  delay(500);
-
-  digitalWrite(led3, HIGH);
-  delay(500);
-  digitalWrite(led3, LOW);
-  delay(500);
-
-  digitalWrite(led4, HIGH);
-  delay(500);
-  digitalWrite(led4, LOW);
-  delay(500);
-
-  digitalWrite(led5, HIGH);
-  delay(500);
-  digitalWrite(led5, LOW);
-  delay(500);
-
-  digitalWrite(led6, HIGH);
-  delay(500);
-  digitalWrite(led6, LOW);
-  delay(500);
-
-  digitalWrite(led7, HIGH);
-  delay(500);
-  digitalWrite(led7, LOW);
-  delay(500);
-
-  digitalWrite(led8, HIGH);
-  delay(500);
-  digitalWrite(led8, LOW);
-  delay(500);
-
-  digitalWrite(led9, HIGH);
-  delay(500);
-  digitalWrite(led9, LOW);
-  delay(500);
-
-  digitalWrite(led10, HIGH);
-  delay(500);
-  digitalWrite(led10, LOW);
-  delay(500);
+  // turn the green LED on and the other LEDs off
+  digitalWrite(led_red, LOW); 
+  digitalWrite(led_yellow, LOW);
+  digitalWrite(led_green, HIGH);
+  delay(2000);    // wait 2 seconds
+  
+  // turn the yellow LED on and the other LEDs off
+  digitalWrite(led_red, LOW);   
+  digitalWrite(led_yellow, HIGH);
+  digitalWrite(led_green, LOW);
+  delay(1000);   // wait 1 second
+  
+  // turn the red LED on and the other LEDs off
+  digitalWrite(led_red, HIGH);  
+  digitalWrite(led_yellow, LOW);
+  digitalWrite(led_green, LOW);
+  delay(3000);  // wait 3 seconds        
 }
