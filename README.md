@@ -24,7 +24,7 @@ Enumera todos los componentes usados:
 
 
 ## Código
-[led13.ino](Codigo/led13.ino)
+https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Codigo/Main.txt
 
 
 
