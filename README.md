@@ -31,7 +31,7 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 
 ## Video del funcionamiento
 
-[Readme](Video/Readme.txt)
+https://youtube.com/shorts/x9jrp2oQHtA?si=zNW2xk4KHRClnctn
 
 [Ver video en YouTube]([https://www.youtube.com/watch?v=T5Aq7cRc-mU](https://www.youtube.com/watch?v=r36q2z-AkHk&sttick=0)
 
