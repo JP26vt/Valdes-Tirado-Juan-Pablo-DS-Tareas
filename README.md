@@ -41,7 +41,7 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 
 ## Reporte
 Incluye:
-[Resultados.pdf](Resultados/Resultados.pdf)
+[Resultados.pdf]file:///C:/Users/Usuario/Documents/Reporte%20de%20la%20practica%201%20arduino%20DS.pdf
 
 - Gráficas (insertar imagen o link)
 - Tablas de datos
