@@ -31,7 +31,7 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 
 ## Video del funcionamiento
 
-
+https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Video/Readme.txt
 
 [Ver video en YouTube]https://youtube.com/shorts/x9jrp2oQHtA?si=zNW2xk4KHRClnctn
 
