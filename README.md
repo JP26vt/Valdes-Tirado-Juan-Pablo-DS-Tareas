@@ -19,7 +19,8 @@ Enumera todos los componentes usados:
 
 ## Diagrama del circuito
 
-<<img width="775" height="519" alt="Captura de pantalla 2026-09-13 215759" src="https://github.com/user-attachments/assets/21efc7c7-4933-4ce8-be2a-42fdc6feb5b9" />
+<img width="725" height="513" alt="Captura de pantalla 2026-09-14 195117" src="https://github.com/user-attachments/assets/ba028aff-e942-41bd-b1c2-dd74addcd3a9" />
+
 >
 
 
