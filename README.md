@@ -37,7 +37,8 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 
 ## Evidencias de armado
 
-<img src="Diagrama/Led 13.png" width="300">
+<img width="1600" height="1200" alt="WhatsApp Image 2026-09-14 at 10 25 07 PM" src="https://github.com/user-attachments/assets/3560b29c-e875-4947-8e8c-e15b6064a6a1" />
+
 
 ## Reporte
 Incluye:
