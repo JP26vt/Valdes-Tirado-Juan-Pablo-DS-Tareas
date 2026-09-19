@@ -23,6 +23,10 @@ Enumera todos los componentes usados:
 ## Código
 https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Codigo/Main.txt
 
+## Imagenes
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-09-14 at 10 25 07 PM" src="https://github.com/user-attachments/assets/3560b29c-e875-4947-8e8c-e15b6064a6a1" />
+
 
 
 ## Video del funcionamiento
@@ -30,10 +34,6 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Video/Readme.txt
 
 [Ver video en YouTube]https://youtube.com/shorts/x9jrp2oQHtA?si=zNW2xk4KHRClnctn
-
-## Evidencias de armado
-
-<img width="1600" height="1200" alt="WhatsApp Image 2026-09-14 at 10 25 07 PM" src="https://github.com/user-attachments/assets/3560b29c-e875-4947-8e8c-e15b6064a6a1" />
 
 
 ## Conclusiones
