@@ -2,7 +2,7 @@
 Chatbot de ecosistema
 
 ## Descripción
-el objetivo de esta practica es que un chat identifique seres vivos e informe sobre ellos.
+El objetivo de esta practica es que un chat identifique seres vivos e informe sobre ellos.
 
 ## Objetivos de aprendizaje
 Crear una automatización capaz de reconocer organismos y seres vivos.
