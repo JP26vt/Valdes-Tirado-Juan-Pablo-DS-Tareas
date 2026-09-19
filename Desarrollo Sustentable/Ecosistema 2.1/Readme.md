@@ -39,7 +39,7 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 La practica nos ha permitido comprender el funcionamiento de una automatización hacia los mensajaes de una aplicación y poder desarrollar respuestas realistas sobre organismos y seres vivos
 
 ## Resultados
-[Resultados.pdf]https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Ecosistema%202.1/Resultado/Readme.txt
+[Resultados.pdf]https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Ecosistema%202.1/Resultado/Resultados%20Chatbot%20de%20ecosistema.pdf
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
 
