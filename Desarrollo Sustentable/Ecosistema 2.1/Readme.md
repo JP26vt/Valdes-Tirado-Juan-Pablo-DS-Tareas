@@ -44,7 +44,6 @@ La practica nos ha permitido comprender el funcionamiento de una automatización
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
 
 - Reporte técnico estilo IEEE (PDF)
-- Datos CSV (si aplica)
-- Diagramas adicionales
+- Dato
 
 
