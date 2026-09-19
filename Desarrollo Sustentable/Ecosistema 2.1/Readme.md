@@ -19,7 +19,12 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 
 ## Imagenes
 
-<img width="1600" height="1200" alt="WhatsApp Image 2026-09-14 at 10 25 07 PM" src="https://github.com/user-attachments/assets/3560b29c-e875-4947-8e8c-e15b6064a6a1" />
+<img width="758" height="352" alt="Captura de pantalla 2026-09-18 205324" src="https://github.com/user-attachments/assets/41eca10a-a3c6-475a-bede-62de732a06e8" />
+<img width="535" height="385" alt="Captura de pantalla 2026-09-18 205239" src="https://github.com/user-attachments/assets/e961754e-354c-4780-aa22-406627235c10" />
+<img width="567" height="451" alt="Captura de pantalla 2026-09-18 205257" src="https://github.com/user-attachments/assets/7af1ecbf-042e-43b0-8615-6b249cbac104" />
+
+
+
 
 
 
