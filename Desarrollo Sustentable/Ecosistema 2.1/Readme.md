@@ -8,7 +8,6 @@ El objetivo de esta practica es que un chat identifique seres vivos e informe so
 Crear una automatización capaz de reconocer organismos y seres vivos.
 
 ## Material utilizado
-Enumera todos los componentes usados:
 Make y sus erramientas
  
 
