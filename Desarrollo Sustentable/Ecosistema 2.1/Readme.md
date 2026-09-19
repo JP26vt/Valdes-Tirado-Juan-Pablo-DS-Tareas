@@ -39,11 +39,9 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 La practica nos ha permitido comprender el funcionamiento de una automatización hacia los mensajaes de una aplicación y poder desarrollar respuestas realistas sobre organismos y seres vivos
 
 ## Resultados
-[Resultados.pdf]https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Resultados/Resultados%20de%20la%20Practica%201%20DS.pdf
+[Resultados.pdf]https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Ecosistema%202.1/Resultado/Readme.txt
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
 
-- Reporte técnico estilo IEEE (PDF)
-- Dato
 
 
