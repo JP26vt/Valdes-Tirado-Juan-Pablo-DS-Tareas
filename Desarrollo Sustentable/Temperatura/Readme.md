@@ -1,14 +1,19 @@
 # Nombre del proyecto
-Chatbot de ecosistema
+Sensor de temperatura con Arduino
 
 ## Descripción
-El objetivo de esta practica es que un chat identifique seres vivos e informe sobre ellos.
+Lograr hacer que un LED se encienda mediante un sensor cuando este detecte una temperatura mayor a 26 grados y se apague cuando la temperatura este menor o igual a 26 grados
 
 ## Objetivos de aprendizaje
-Crear una automatización capaz de reconocer organismos y seres vivos.
+Programar y simular en Arduino un sensor de temperatura y el encendido de un LED de acuerdo al sensor
 
 ## Material utilizado
-Make y sus erramientas
+1. LED
+2. Resistencia 220 ohms
+3. Protoboard
+4. Arduino UNO
+5. Cables
+
  
 
 >
