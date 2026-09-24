@@ -19,9 +19,12 @@ Make y sus erramientas
 
 ## Imagenes
 
-<img width="758" height="352" alt="Captura de pantalla 2026-09-18 205324" src="https://github.com/user-attachments/assets/41eca10a-a3c6-475a-bede-62de732a06e8" />
-<img width="535" height="385" alt="Captura de pantalla 2026-09-18 205239" src="https://github.com/user-attachments/assets/e961754e-354c-4780-aa22-406627235c10" />
-<img width="567" height="451" alt="Captura de pantalla 2026-09-18 205257" src="https://github.com/user-attachments/assets/7af1ecbf-042e-43b0-8615-6b249cbac104" />
+<img width="547" height="398" alt="Captura de pantalla 2026-09-24 125052" src="https://github.com/user-attachments/assets/7b4be157-4957-4556-97c1-4f7906a23121" />
+<img width="546" height="405" alt="Captura de pantalla 2026-09-24 125040" src="https://github.com/user-attachments/assets/a1329c17-f7c0-4215-bb1e-c4b5c045aaa0" />
+<img width="556" height="413" alt="Captura de pantalla 2026-09-24 125023" src="https://github.com/user-attachments/assets/04a81c05-d867-49c6-ac2e-78edef47157d" />
+
+
+
 
 
 
