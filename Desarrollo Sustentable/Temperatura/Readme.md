@@ -15,7 +15,7 @@ Make y sus erramientas
 
 
 ## Código
-(/main.txt)
+[Main.txt](./Codigo/Main.txt)
 
 ## Imagenes
 
