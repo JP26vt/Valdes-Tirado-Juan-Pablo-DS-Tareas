@@ -30,7 +30,7 @@ Programar y simular en Arduino un sensor de temperatura y el encendido de un LED
 
 ## Video del funcionamiento
 
-[Readme.txt](./Video/video.txt)
+[Video](./Video/Readme.txt)
 
 [Ver video en YouTube](./https://youtube.com/shorts/16BisrJLpVY?si=g1kt4hT4RonySvVR/)
 
