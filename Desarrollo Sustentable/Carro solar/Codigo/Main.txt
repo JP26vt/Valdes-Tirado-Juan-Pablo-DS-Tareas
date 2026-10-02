@@ -1,1 +1,86 @@
-
+{
+  "proyecto": "Carro solar de 2 ruedas",
+  "version": "1.0",
+  "descripcion": "Carro con chasis 2WD alimentado por panel solar y batería. Dos motores DC reductores (uno por rueda) controlados desde un Arduino mediante un driver L298N.",
+  "supuestos": [
+    "Microcontrolador: Arduino Uno (ajustable a Nano o ESP32)",
+    "Driver de motores: L298N",
+    "Los motores amarillos de la foto son motores DC reductores tipo TT, no servomotores"
+  ],
+  "componentes": [
+    { "id": "chasis", "nombre": "Chasis acrílico 2WD", "cantidad": 1 },
+    { "id": "motor_izq", "nombre": "Motor DC reductor TT (izquierdo)", "cantidad": 1, "rueda": "rueda izquierda" },
+    { "id": "motor_der", "nombre": "Motor DC reductor TT (derecho)", "cantidad": 1, "rueda": "rueda derecha" },
+    { "id": "panel", "nombre": "Panel solar", "cantidad": 1 },
+    { "id": "bateria", "nombre": "Batería o power bank (recomendada para estabilizar la energía)", "cantidad": 1 },
+    { "id": "driver", "nombre": "Driver de motores L298N", "cantidad": 1 },
+    { "id": "mcu", "nombre": "Arduino Uno", "cantidad": 1 },
+    { "id": "cables", "nombre": "Cables jumper", "cantidad": 1 }
+  ],
+  "conexiones": {
+    "arduino_a_l298n": [
+      { "arduino": "D5 (PWM)", "l298n": "ENA", "funcion": "Velocidad motor izquierdo" },
+      { "arduino": "D7", "l298n": "IN1", "funcion": "Dirección motor izquierdo" },
+      { "arduino": "D8", "l298n": "IN2", "funcion": "Dirección motor izquierdo" },
+      { "arduino": "D9", "l298n": "IN3", "funcion": "Dirección motor derecho" },
+      { "arduino": "D10", "l298n": "IN4", "funcion": "Dirección motor derecho" },
+      { "arduino": "D6 (PWM)", "l298n": "ENB", "funcion": "Velocidad motor derecho" },
+      { "arduino": "GND", "l298n": "GND", "funcion": "Tierra común" }
+    ],
+    "motores_a_l298n": [
+      { "motor": "motor_izq", "salida": "OUT1 / OUT2" },
+      { "motor": "motor_der", "salida": "OUT3 / OUT4" }
+    ],
+    "energia": [
+      { "origen": "panel", "destino": "bateria", "nota": "Cargar la batería con el panel" },
+      { "origen": "bateria", "destino": "L298N (VCC y GND)", "nota": "Alimentación de los motores" }
+    ]
+  },
+  "firmware": {
+    "plataforma": "Arduino",
+    "archivo": "carro_solar.ino",
+    "parametros": { "velocidad": 200, "rango_velocidad": "0-255" },
+    "codigo": [
+      "const int ENA = 5;",
+      "const int IN1 = 7;",
+      "const int IN2 = 8;",
+      "const int ENB = 6;",
+      "const int IN3 = 9;",
+      "const int IN4 = 10;",
+      "int velocidad = 200;",
+      "",
+      "void setup() {",
+      "  pinMode(ENA, OUTPUT); pinMode(IN1, OUTPUT); pinMode(IN2, OUTPUT);",
+      "  pinMode(ENB, OUTPUT); pinMode(IN3, OUTPUT); pinMode(IN4, OUTPUT);",
+      "}",
+      "",
+      "void adelante() {",
+      "  digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW);",
+      "  digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW);",
+      "  analogWrite(ENA, velocidad); analogWrite(ENB, velocidad);",
+      "}",
+      "",
+      "void atras() {",
+      "  digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH);",
+      "  digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH);",
+      "  analogWrite(ENA, velocidad); analogWrite(ENB, velocidad);",
+      "}",
+      "",
+      "void detener() {",
+      "  analogWrite(ENA, 0); analogWrite(ENB, 0);",
+      "}",
+      "",
+      "void loop() {",
+      "  adelante(); delay(3000);",
+      "  detener();  delay(1000);",
+      "  atras();    delay(3000);",
+      "  detener();  delay(1000);",
+      "}"
+    ]
+  },
+  "notas": [
+    "Si una rueda gira al revés, intercambia los cables de ese motor.",
+    "Si el Arduino se reinicia al arrancar los motores, usa batería o un capacitor grande entre el panel y el driver.",
+    "Conectar el panel directo a los motores los hace girar con luz, pero sin control de dirección ni velocidad."
+  ]
+}
