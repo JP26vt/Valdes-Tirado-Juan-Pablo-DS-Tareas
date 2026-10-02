@@ -1,24 +1,19 @@
 # Nombre del proyecto
-Sensor de temperatura con Arduino
+Carro Solar
 
 ## Descripción
-Lograr hacer que un LED se encienda mediante un sensor cuando este detecte una temperatura mayor a 26 grados y se apague cuando la temperatura este menor o igual a 26 grados
+Construir un carro que pueda activar motores mediante un panel solar.
 
 ## Objetivos de aprendizaje
-Programar y simular en Arduino un sensor de temperatura y el encendido de un LED de acuerdo al sensor
+Construir un carro que pueda avanzar y mover sus ruedas mediante energia solar
 
 ## Material utilizado
-1. LED
-2. Resistencia 220 ohms
-3. Protoboard
-4. Arduino UNO
-5. Cables
+Motores
+Ruedas
+Panel solar
+Cables conectores
 
- 
-
->
-
-
+ >
 ## Código
 [Main.txt](./Codigo/Main.txt)
 
