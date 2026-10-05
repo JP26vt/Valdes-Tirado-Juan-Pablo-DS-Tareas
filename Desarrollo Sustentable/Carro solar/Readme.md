@@ -30,7 +30,7 @@ Cables conectores
 
 
 ## Conclusiones
-La practica nos ha permitido comprender el funcionamiento de una automatización hacia los mensajaes de una aplicación y poder desarrollar respuestas realistas sobre organismos y seres vivos
+La practica nos ha permitido comprender el funcionamiento de la luz solar como transformación de la energia
 
 ## Resultados
 [Resultados.pdf]https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Carro%20solar/Resultados/Resultados%20de%20Carro%20solar.pdf
