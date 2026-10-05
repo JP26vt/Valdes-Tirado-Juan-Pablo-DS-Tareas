@@ -42,5 +42,5 @@ La practica nos ha permitido ver como los circuitos y conectores en el Arduino e
 ## Resultados
 [Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Biosfera%20(Litosfera)/Resultados/Resultados%20de%20sensor%20de%20sensor%20de%20humedad.pdf)
 
-Este documento contiene la descripción de la practica y los procedimientos realizados##
+Este documento contiene la descripción de la practica y los procedimientos realizados
 
