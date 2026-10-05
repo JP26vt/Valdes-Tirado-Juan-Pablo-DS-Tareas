@@ -40,5 +40,5 @@ Resistencia
 La practica nos ha permitido ver como los circuitos y conectores en el Arduino en funcionamiento son capaces de captar el nivel de humedad y indicar cuando la tierra necesita agua y cuando esta bien
 
 ## Resultados
-[Resultados.pdf]()
-Este documento cohttps://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Biosfera%20(Litosfera)/Resultados/Resultados%20de%20sensor%20de%20sensor%20de%20humedad.pdfntiene la descripción de la práctica, objetivos y procedimientos realizados.
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Biosfera%20(Litosfera)/Resultados/Resultados%20de%20sensor%20de%20sensor%20de%20humedad.pdf)
+
