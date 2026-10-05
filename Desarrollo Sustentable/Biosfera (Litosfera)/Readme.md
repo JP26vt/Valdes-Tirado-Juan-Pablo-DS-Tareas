@@ -19,7 +19,12 @@ Cables conectores
 
 ## Imagenes
 
-<img width="1600" height="1200" alt="WhatsApp Image 2026-10-01 at 8 04 21 PM" src="https://github.com/user-attachments/assets/28c4fa2b-690d-4401-953c-00eebc000568" />
+<img width="1600" height="1200" alt="WhatsApp Image 2026-10-05 at 11 22 36 AM (2)" src="https://github.com/user-attachments/assets/60583f10-6e5f-4fa4-b0b8-995e508c11f2" />
+<img width="1600" height="1200" alt="WhatsApp Image 2026-10-05 at 11 22 36 AM (1)" src="https://github.com/user-attachments/assets/07d5ec46-7880-4de8-a067-c5a1fcc80d9d" />
+<img width="1600" height="1200" alt="WhatsApp Image 2026-10-05 at 11 22 36 AM" src="https://github.com/user-attachments/assets/9db8eb2f-5fad-42eb-8abf-cae958e13127" />
+
+
+
 
 
 ## Video del funcionamiento
