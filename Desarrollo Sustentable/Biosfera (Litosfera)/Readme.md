@@ -1,17 +1,19 @@
 # Nombre del proyecto
-Carro Solar
+2.3 Biosfera (Litosfera)
 
 ## Descripción
-Construir un carro que pueda activar motores mediante un panel solar.
+Crear un circuito con sensor de humedad
 
 ## Objetivos de aprendizaje
-Construir un carro que pueda avanzar y mover sus ruedas mediante energia solar
+Construir un circuito con un sensor de temperatura que según la humedad que el sensor sea capaz de detectar un LED este encendido cuando el sensor esta seco y se apague cuando este humedo
 
 ## Material utilizado
-Motores
-Ruedas
-Panel solar
+Arduino
+LED
+Sensor de humedad
 Cables conectores
+Protoboard
+Resistencia
 
  >
 ## Código
@@ -35,7 +37,7 @@ Cables conectores
 
 
 ## Conclusiones
-La practica nos ha permitido comprender el funcionamiento de una automatización hacia los mensajaes de una aplicación y poder desarrollar respuestas realistas sobre organismos y seres vivos
+La practica nos ha permitido ver como los circuitos y conectores en el Arduino en funcionamiento son capaces de captar el nivel de humedad y indicar cuando la tierra necesita agua y cuando esta bien
 
 ## Resultados
 [Resultados.pdf]https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Carro%20solar/Resultados/Resultados%20de%20Carro%20solar.pdf
