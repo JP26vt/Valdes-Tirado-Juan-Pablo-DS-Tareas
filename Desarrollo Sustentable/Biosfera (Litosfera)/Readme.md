@@ -33,7 +33,7 @@ Resistencia
 
 [Readme](./Video/Readme.txt)
 
-[Ver video en YouTube]https://youtube.com/shorts/Z4YeBoz9I5M
+[Ver video en YouTube]https://youtu.be/rVW8qBaP-E8?si=cklC0Ih-RQXGulSo
 
 
 ## Conclusiones
