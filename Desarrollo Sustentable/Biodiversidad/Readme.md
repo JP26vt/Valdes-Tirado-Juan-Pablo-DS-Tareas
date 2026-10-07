@@ -1,19 +1,14 @@
 # Nombre del proyecto
-2.3 Biosfera (Litosfera)
+Biodiversidad.
 
 ## Descripción
-Crear un circuito con sensor de humedad
+Crear una automatización que pueda reconocer plantas y darnos información solicitada sobre el tema.
 
 ## Objetivos de aprendizaje
-Construir un circuito con un sensor de temperatura que según la humedad que el sensor sea capaz de detectar un LED este encendido cuando el sensor esta seco y se apague cuando este humedo
+Comprender el proceso de creación de un chat que pueda reconocer y dar información de un tema determinado.  
 
 ## Material utilizado
-Arduino
-LED
-Sensor de humedad
-Cables conectores
-Protoboard
-Resistencia
+Make y sus herramientas.
 
  >
 ## Código
@@ -37,7 +32,7 @@ Resistencia
 
 
 ## Conclusiones
-La practica nos ha permitido ver como los circuitos y conectores en el Arduino en funcionamiento son capaces de captar el nivel de humedad y indicar cuando la tierra necesita agua y cuando esta bien
+La practica nos ha permitido ver como un Chatbot logra reconocer plantas y dar información sobre ellas
 
 ## Resultados
 [Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Biosfera%20(Litosfera)/Resultados/Resultados%20de%20sensor%20de%20sensor%20de%20humedad.pdf)
