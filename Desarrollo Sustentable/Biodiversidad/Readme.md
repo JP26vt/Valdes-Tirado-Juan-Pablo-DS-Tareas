@@ -16,9 +16,8 @@ Make y sus herramientas.
 
 ## Imagenes
 
-<img width="1600" height="1200" alt="WhatsApp Image 2026-10-05 at 11 22 36 AM (2)" src="https://github.com/user-attachments/assets/60583f10-6e5f-4fa4-b0b8-995e508c11f2" />
-<img width="1600" height="1200" alt="WhatsApp Image 2026-10-05 at 11 22 36 AM (1)" src="https://github.com/user-attachments/assets/07d5ec46-7880-4de8-a067-c5a1fcc80d9d" />
-<img width="1600" height="1200" alt="WhatsApp Image 2026-10-05 at 11 22 36 AM" src="https://github.com/user-attachments/assets/9db8eb2f-5fad-42eb-8abf-cae958e13127" />
+<img width="915" height="543" alt="Captura de pantalla 2026-10-06 200917" src="https://github.com/user-attachments/assets/64fe84b3-fb62-465f-ab68-6a31b98a2b8e" />
+
 
 
 
