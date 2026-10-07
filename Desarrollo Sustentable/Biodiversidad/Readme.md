@@ -34,7 +34,7 @@ Make y sus herramientas.
 La practica nos ha permitido ver como un Chatbot logra reconocer plantas y dar información sobre ellas
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Biosfera%20(Litosfera)/Resultados/Resultados%20de%20sensor%20de%20sensor%20de%20humedad.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Biodiversidad/Resultados/Resultados%20de%20Biodiversidad.pdf)
 
 Este documento contiene la descripción de la practica y los procedimientos realizados
 
