@@ -20,6 +20,7 @@ Make y sus herramientas
 
 ## Imagenes
 
+<img width="893" height="273" alt="Captura de pantalla 2026-10-26 212555" src="https://github.com/user-attachments/assets/d815f0a6-08f4-41d5-9713-06ab421c671b" />
 
 
 ## Video del funcionamiento
