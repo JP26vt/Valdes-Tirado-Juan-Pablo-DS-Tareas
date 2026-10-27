@@ -29,7 +29,7 @@ Make y sus herramientas
 
 https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Video/Readme.txt
 
-[Ver video en YouTube]https://youtube.com/shorts/x9jrp2oQHtA?si=zNW2xk4KHRClnctn
+[Ver video en YouTube]https://youtu.be/ZpuMq3RHwNw?si=curgLjrqGy3J4bxb
 
 
 
