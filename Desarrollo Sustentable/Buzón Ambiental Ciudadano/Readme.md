@@ -15,7 +15,8 @@ Make y sus herramientas
 
 
 ## Código
-https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Codigo/Main.txt
+[Main.txt](./Codigo/Main.txt)
+
 
 ## Imagenes
 
