@@ -27,7 +27,7 @@ Make y sus herramientas
 
 ## Video del funcionamiento
 
-[Readme](./Video/Readme.txt)
+[Readme](./Video/readme.txt)
 
 [Ver video en YouTube]https://youtu.be/ZpuMq3RHwNw?si=curgLjrqGy3J4bxb
 
