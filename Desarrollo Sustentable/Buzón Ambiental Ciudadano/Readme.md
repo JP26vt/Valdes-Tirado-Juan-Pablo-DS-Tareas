@@ -27,7 +27,7 @@ Make y sus herramientas
 
 ## Video del funcionamiento
 
-https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Buz%C3%B3n%20Ambiental%20Ciudadano/Video/readme.txt
+[Readme](./Video/Readme.txt)
 
 [Ver video en YouTube]https://youtu.be/ZpuMq3RHwNw?si=curgLjrqGy3J4bxb
 
