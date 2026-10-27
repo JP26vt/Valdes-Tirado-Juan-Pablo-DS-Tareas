@@ -37,7 +37,7 @@ Make y sus herramientas
 En esta práctica construimos un buzón ciudadano automatizado en Telegram, sin programar, usando Make y Google Sheets. El bot recibe reportes ambientales, los registra con fecha, usuario y nombre, y entrega al ciudadano un folio de seguimiento. Con el Router también logramos que el bot distinga entre el comando /start y un reporte real. La investigación mostró que en Mazatlán los problemas ambientales los atienden instituciones federales, estatales y municipales, además de organizaciones civiles, y que el folio es lo que convierte una queja en un registro con el que se puede exigir respuesta. Nuestro buzón es un buen ejercicio, pero no es un canal formal porque no tiene una autoridad que responda ni un plazo definido. Además, deja fuera a quienes no tienen celular o internet. La tecnología facilita la participación ciudadana, pero solo funciona si está conectada con una autoridad y si todos pueden usarla.
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Biosfera%20(Litosfera)/Resultados/Resultados%20de%20sensor%20de%20sensor%20de%20humedad.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Buz%C3%B3n%20Ambiental%20Ciudadano/Resultados/Resultados%20de%20Buzon.pdf)
 
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
