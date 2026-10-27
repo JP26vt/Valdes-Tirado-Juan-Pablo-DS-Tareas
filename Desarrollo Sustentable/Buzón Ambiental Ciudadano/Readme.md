@@ -30,7 +30,7 @@ https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarroll
 
 
 ## Conclusiones
-La práctica permitió reforzar el uso de las funciones básicas de salida digital y temporización en Arduino (digitalWrite y delay), así como comprender el funcionamiento eléctrico de un protoboard: la importancia de que los componentes queden conectados en serie para que la resistencia cumpla su función de limitar la corriente. Este tipo de error es común en simuladores como Tinkercad y resalta la importancia de verificar el camino real de la corriente, no solo la presencia física de los componentes en el circuito.
+En esta práctica construimos un buzón ciudadano automatizado en Telegram, sin programar, usando Make y Google Sheets. El bot recibe reportes ambientales, los registra con fecha, usuario y nombre, y entrega al ciudadano un folio de seguimiento. Con el Router también logramos que el bot distinga entre el comando /start y un reporte real. La investigación mostró que en Mazatlán los problemas ambientales los atienden instituciones federales, estatales y municipales, además de organizaciones civiles, y que el folio es lo que convierte una queja en un registro con el que se puede exigir respuesta. Nuestro buzón es un buen ejercicio, pero no es un canal formal porque no tiene una autoridad que responda ni un plazo definido. Además, deja fuera a quienes no tienen celular o internet. La tecnología facilita la participación ciudadana, pero solo funciona si está conectada con una autoridad y si todos pueden usarla.
 
 ## Resultados
 [Resultados.pdf]https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/10%20Leds/Resultados/Resultados%20de%20la%20Practica%201%20DS.pdf
