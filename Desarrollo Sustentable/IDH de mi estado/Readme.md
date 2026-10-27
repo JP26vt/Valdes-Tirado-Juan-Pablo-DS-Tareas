@@ -1,5 +1,5 @@
 # Nombre del proyecto
-Sociedad, organización social
+IDH de mi estado
 
 ## Descripción
 Registrar reportes de distintas perosnas.
