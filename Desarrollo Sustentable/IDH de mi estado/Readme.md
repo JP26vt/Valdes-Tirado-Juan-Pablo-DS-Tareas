@@ -35,7 +35,9 @@ Make y sus herramientas
 
 
 ## Conclusiones
-En esta práctica construimos un buzón ciudadano automatizado en Telegram, sin programar, usando Make y Google Sheets. El bot recibe reportes ambientales, los registra con fecha, usuario y nombre, y entrega al ciudadano un folio de seguimiento. Con el Router también logramos que el bot distinga entre el comando /start y un reporte real. La investigación mostró que en Mazatlán los problemas ambientales los atienden instituciones federales, estatales y municipales, además de organizaciones civiles, y que el folio es lo que convierte una queja en un registro con el que se puede exigir respuesta. Nuestro buzón es un buen ejercicio, pero no es un canal formal porque no tiene una autoridad que responda ni un plazo definido. Además, deja fuera a quienes no tienen celular o internet. La tecnología facilita la participación ciudadana, pero solo funciona si está conectada con una autoridad y si todos pueden usarla.
+En esta práctica construimos una página web conectada a Make y a una IA que consulta el IDH de cualquier entidad de México usando solo los datos oficiales del PNUD. Aprendimos que el IDH resume en un valor de 0 a 1 la salud, la educación y el ingreso de las personas, y que permite comparar el desarrollo de cada estado. También vimos que Sinaloa tiene su fortaleza en educación y su mayor rezago en salud.
+
+La comparación entre el Distrito Federal (0.830) y Chiapas (0.667) muestra que en un mismo país hay diferencias grandes de desarrollo, sobre todo en educación. Esto es un tema de justicia y equidad, porque las oportunidades de una persona no deberían depender del lugar donde vive. Además, el promedio de un estado oculta diferencias entre zonas urbanas y rurales.
 
 ## Resultados
 [Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/IDH%20de%20mi%20estado/Resultados/Resultados%20de%20IDH%20de%20estado.pdf)
