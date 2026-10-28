@@ -40,7 +40,7 @@ Make y sus herramientas
 La práctica mostró que la separación de residuos empieza por saber qué es cada material y a dónde debe ir, y que una IA con visión puede ayudar a identificarlo de forma rápida y sin programar. Sin embargo, sus respuestas no son infalibles: se equivoca con materiales mezclados como el tetrapak, con fotos poco claras y con reglas locales, por lo que siempre hay que verificarlas con fuentes oficiales. En Mazatlán, la falta de un relleno sanitario controlado y la basura que llega a canales y al Estero de Urías hacen más urgente separar y reducir desde el origen. La responsabilidad es compartida entre ciudadanos, municipio y fabricantes, y el cambio empieza con decisiones concretas de consumo en casa.
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/IDH%20de%20mi%20estado/Resultados/Resultados%20de%20IDH%20de%20estado.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Clasificador%20de%20residuos/Resultados/Resultados%20de%20Residuos.pdf)
 
 ## Reporte de preguntas
 
