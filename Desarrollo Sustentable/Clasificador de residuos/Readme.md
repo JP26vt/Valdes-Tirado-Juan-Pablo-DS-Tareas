@@ -20,8 +20,10 @@ Make y sus herramientas
 
 ## Imagenes
 
-<img width="879" height="415" alt="image" src="https://github.com/user-attachments/assets/d10f88be-132c-48dc-ac4d-7811ce89b60d" />
-<img width="784" height="575" alt="Captura de pantalla 2026-10-26 222852" src="https://github.com/user-attachments/assets/cf6eaee4-6515-4c3a-bfd3-a117fbf40504" />
+<img width="1283" height="483" alt="Captura de pantalla 2026-10-27 211213" src="https://github.com/user-attachments/assets/8c42a38f-4bac-4580-aad5-f6eaa6390460" />
+
+<img width="762" height="541" alt="Captura de pantalla 2026-10-27 211331" src="https://github.com/user-attachments/assets/87c46797-60f0-40a5-aac4-14e61b6e4162" />
+
 
 
 
