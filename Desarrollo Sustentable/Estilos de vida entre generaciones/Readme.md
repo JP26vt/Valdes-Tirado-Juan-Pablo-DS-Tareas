@@ -1,11 +1,11 @@
 # Nombre del proyecto
-Clasificador de residuos
+Estilos de vida entre generaciones
 
 ## Descripción
-Crear una automatización que tome los datos solicitados y proporcione respuestas de acuerdo a la función y tema de la practica.
+Crear una automatización que tome los datos de una entrevista y de un resultado preciso
 
 ## Objetivos de aprendizaje
-Crear una automatización eficiente para poder realizar un chatbot en telegram sobre la aplicación del tema y que el alumno realice habilidades en el programa make y automatizaciones
+Crear una automatización eficiente para poder realizar una pagina web que pueda compara una entrevista con las respuestas de 3 personas
 
 ## Material utilizado
 Make y sus herramientas
@@ -37,27 +37,25 @@ Make y sus herramientas
 
 
 ## Conclusiones
-La práctica mostró que la separación de residuos empieza por saber qué es cada material y a dónde debe ir, y que una IA con visión puede ayudar a identificarlo de forma rápida y sin programar. Sin embargo, sus respuestas no son infalibles: se equivoca con materiales mezclados como el tetrapak, con fotos poco claras y con reglas locales, por lo que siempre hay que verificarlas con fuentes oficiales. En Mazatlán, la falta de un relleno sanitario controlado y la basura que llega a canales y al Estero de Urías hacen más urgente separar y reducir desde el origen. La responsabilidad es compartida entre ciudadanos, municipio y fabricantes, y el cambio empieza con decisiones concretas de consumo en casa.
-
+En esta práctica comparé los estilos de vida de tres generaciones y vi que los hábitos de mis abuelos eran más sustentables, sobre todo por necesidad (reparar, reutilizar, consumir local), mientras que los de hoy cuentan con más información y tecnología, pero también con más consumo desechable. Usar Make y la IA me permitió comparar las respuestas de forma rápida, pero las conclusiones requieren criterio propio, porque la IA solo interpreta lo que se le da. Retomar hábitos como reparar, reutilizar y cuidar el agua ayudaría a que nuestra generación consuma de forma más responsable.
 ## Resultados
 [Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Clasificador%20de%20residuos/Resultados/Resultados%20de%20Residuos.pdf)
 
 ## Reporte de preguntas
+1. ¿Qué generación tiene el estilo de vida más sustentable según sus respuestas? ¿Fue por convicción o por necesidad?
+La generación de los abuelos. Reparaban, reutilizaban y consumían local, pero lo hacían más por necesidad que por convicción.
 
-1. ¿Cuántos de los 10 residuos se pueden reciclar o compostar? ¿Cuántos separan realmente en su casa?
-[6] de los 10 se pueden reciclar o compostar, pero en casa solo separamos [__] porque [no hay contenedores separados ni centros de acopio cercanos].
+2. ¿Qué cambios en la sociedad (publicidad, tecnología, ingreso, ciudad) explican las diferencias de consumo entre las tres generaciones?
+La publicidad, la tecnología, el mayor ingreso y la vida en ciudad hicieron que se consuma más y se repare menos. También aparecieron más productos desechables y de fácil acceso.
 
-2. ¿Qué residuo les sorprendió más por su tiempo de degradación? ¿Qué impacto tiene cuando llega al mar o a un canal de Mazatlán?
-Nos sorprendió [residuo], que tarda [__ años] en degradarse; en Mazatlán los plásticos llegan al Estero de Urías, donde hay microplásticos incluso en peces que se consumen.
+3. ¿Están de acuerdo con el análisis de la IA? ¿Qué dejó fuera o qué interpretó mal?
+Sí, en general, porque comparó bien los hábitos de las tres generaciones. Pero dejó fuera el contexto económico y social de cada época, y no distinguió bien entre hábitos por necesidad y por convicción.
 
-3. ¿En qué casos se equivocó la IA? ¿A qué creen que se debió (foto, material mezclado, falta de contexto local)?
-La IA acertó [__ de 10] y falló en [residuo] por material mezclado, fotos poco claras o falta de contexto local sobre reciclaje en Mazatlán.
+4. ¿Qué relación tienen estos hábitos con los principios de la Carta de la Tierra o con la Agenda 21?
+Los hábitos de antes coinciden con el cuidado de la naturaleza y el consumo responsable que promueven ambos documentos. Los de hoy los contradicen cuando generan más basura, desperdicio y uso excesivo de recursos.
 
-4. ¿De quién es la responsabilidad de que un residuo se recicle: del ciudadano, del municipio o de la empresa que lo fabrica?
-La responsabilidad es compartida: el ciudadano separa, el municipio presta el servicio de recolección y manejo, y las empresas diseñan envases reciclables.
-
-5. ¿Qué cambio concreto harían en su consumo después de esta práctica?
-Vamos a [dejar de comprar agua en botella PET y usar termo] y a [separar reciclables limpios y llevarlos a un centro de acopio].
+5. ¿Qué hábito de generaciones anteriores están dispuestos a retomar y cómo lo harían?
+Reparar y reutilizar. Lo haríamos arreglando la ropa y los zapatos en lugar de tirarlos, llevando bolsas y botellas reutilizables, y cuidando el agua en casa.
 
 - Reporte técnico estilo IEEE (PDF)
 - Datos CSV (si aplica)
