@@ -15,7 +15,7 @@ Make y sus herramientas
 
 
 ## Código
-[Main.txt](./Codigo/Main.txt)
+[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Noticias%20climaticas/Codigo/main.txt)
 
 
 ## Imagenes
