@@ -36,7 +36,7 @@ Make y sus herramientas
 En esta práctica construimos, sin programar, una herramienta que difunde información ambiental de forma automática. La página envía un tema a Make, que obtiene noticias recientes de Google Noticias mediante RSS, las junta en un solo texto y las resume con un agente de IA. La página muestra el resultado con los enlaces a las fuentes. Con esto vimos cómo un ingeniero en sistemas puede intervenir en su comunidad, haciendo que la información ambiental llegue de forma clara a personas que no tienen tiempo de leer decenas de noticias.
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Estilos%20de%20vida%20entre%20generaciones/Resultados/Resultados%20de%20Generaciones.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Noticias%20climaticas/Resultados/Resultados%20de%20Noticias%20Clim%C3%A1ticas.pdf)
 
 ## Reporte de preguntas
 
