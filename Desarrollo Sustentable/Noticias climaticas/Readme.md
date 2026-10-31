@@ -28,7 +28,7 @@ Make y sus herramientas
 
 [Readme](./Video/readme.txt)
 
-[Ver video en YouTube]https://youtu.be/u3RtlKEiV_U?si=BesG2O_FyjluHO0U
+[Ver video en YouTube]https://youtu.be/1Dx1DHXAdy0?si=nG4PpTzccBCD9lr1
 
 
 
