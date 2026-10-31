@@ -34,7 +34,8 @@ Make y sus herramientas
 
 
 ## Conclusiones
-En esta práctica comparé los estilos de vida de tres generaciones y vi que los hábitos de mis abuelos eran más sustentables, sobre todo por necesidad (reparar, reutilizar, consumir local), mientras que los de hoy cuentan con más información y tecnología, pero también con más consumo desechable. Usar Make y la IA me permitió comparar las respuestas de forma rápida, pero las conclusiones requieren criterio propio, porque la IA solo interpreta lo que se le da. Retomar hábitos como reparar, reutilizar y cuidar el agua ayudaría a que nuestra generación consuma de forma más responsable.
+En esta práctica construimos, sin programar, una herramienta que difunde información ambiental de forma automática. La página envía un tema a Make, que obtiene noticias recientes de Google Noticias mediante RSS, las junta en un solo texto y las resume con un agente de IA. La página muestra el resultado con los enlaces a las fuentes. Con esto vimos cómo un ingeniero en sistemas puede intervenir en su comunidad, haciendo que la información ambiental llegue de forma clara a personas que no tienen tiempo de leer decenas de noticias.
+
 ## Resultados
 [Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Estilos%20de%20vida%20entre%20generaciones/Resultados/Resultados%20de%20Generaciones.pdf)
 
@@ -42,5 +43,4 @@ En esta práctica comparé los estilos de vida de tres generaciones y vi que los
 
 
 
-- Datos CSV (si aplica)
 
