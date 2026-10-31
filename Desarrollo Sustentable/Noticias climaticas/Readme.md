@@ -39,6 +39,19 @@ En esta práctica construimos, sin programar, una herramienta que difunde inform
 [Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Noticias%20climaticas/Resultados/Resultados%20de%20Noticias%20Clim%C3%A1ticas.pdf)
 
 ## Reporte de preguntas
+1. ¿Qué tema tuvo más noticias recientes y cuál menos? ¿Qué dice eso sobre la atención que los medios dan a cada problema? Los temas tuvieron tiempo de apenas unas horas excepto Olas de calor que ya tenia dias
+   
+3.  ¿Los resúmenes de la IA fueron fieles a las noticias originales? ¿Qué riesgos tiene difundir información resumida por IA sin verificarla?
+Sí, casi siempre. El riesgo es difundir datos falsos o incompletos.
+
+4. ¿Qué tan presentes estuvieron los temas locales (Sinaloa, Mazatlán) frente a los nacionales o globales?
+Hubo menos noticias locales.
+
+5. ¿A quién en su comunidad le sería útil esta página y cómo la harían llegar a esas personas?
+A estudiantes. La compartiríamos por WhatsApp.
+
+6. ¿Qué otra herramienta de automatización podría usar un ingeniero en sistemas para difundir la conciencia ambiental?
+Un bot de Telegram.
 
 
 
