@@ -20,8 +20,10 @@ Make y sus herramientas
 
 ## Imagenes
 
-<img width="893" height="273" alt="Captura de pantalla 2026-10-26 212555" src="https://github.com/user-attachments/assets/d815f0a6-08f4-41d5-9713-06ab421c671b" />
-<img width="702" height="1600" alt="WhatsApp Image 2026-10-26 at 9 32 40 PM" src="https://github.com/user-attachments/assets/721b3269-62fa-4f9b-9bd6-c8d7edec78bd" />
+<img width="712" height="336" alt="Captura de pantalla 2026-11-11 173344" src="https://github.com/user-attachments/assets/18cbaccc-80b3-4b17-a330-8565480e7b6f" />
+<img width="1349" height="621" alt="Captura de pantalla 2026-11-11 173423" src="https://github.com/user-attachments/assets/ddb813e2-426f-498a-a595-6e6ae7553c32" />
+
+
 
 
 
