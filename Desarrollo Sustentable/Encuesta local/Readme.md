@@ -15,7 +15,7 @@ Make y sus herramientas
 
 
 ## Código
-[Main.txt](./Codigo/Main.txt)
+[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Codigo/Main.txt)
 
 
 ## Imagenes
