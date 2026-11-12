@@ -57,7 +57,7 @@ Internalizar el costo significa que quien genera el impacto lo pague y lo incorp
 Como equipo estamos dispuestos a hacer cambios sencillos que reduzcan nuestra huella sin renunciar a las herramientas que necesitamos. El primero es bajar la calidad del video cuando no se necesita alta resolución (por ejemplo, en el celular) y evitar dejar videos reproduciéndose de fondo. El segundo es borrar archivos, fotos duplicadas y correos innecesarios de la nube, ya que el almacenamiento consume energía de forma permanente.
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Resultados/Resultados%20de%20Encuesta%20local%20o%20global.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Huella%20energetica/Resultados/Resultados%20Huella%20Energ%C3%A9tica.pdf)
 
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
