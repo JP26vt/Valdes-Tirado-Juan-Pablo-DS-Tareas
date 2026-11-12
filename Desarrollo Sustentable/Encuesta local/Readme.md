@@ -55,7 +55,7 @@ Para verificar, calculé en Sheets los porcentajes de dos preguntas con la fórm
 Propongo organizar un tianguis o mercado local una vez al mes en el parque o la cancha de la colonia, con vecinos que vendan comida, productos hechos en casa y artesanías. Se pediría permiso al comité de vecinos y se avisaría por los grupos de WhatsApp y las redes sociales de la colonia. También se podría hacer un directorio digital con los negocios de la zona, con su ubicación y su teléfono, para que la gente los encuentre fácil.
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Buz%C3%B3n%20Ambiental%20Ciudadano/Resultados/Resultados%20de%20Buzon.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Resultados/Resultados%20de%20Encuesta%20local%20o%20global.pdf)
 
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
