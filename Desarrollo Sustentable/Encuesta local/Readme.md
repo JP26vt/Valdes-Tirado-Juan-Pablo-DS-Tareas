@@ -31,7 +31,7 @@ Make y sus herramientas
 
 [Readme](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Video/Readme.txt)
 
-[Ver video en YouTube]https://youtu.be/0FdOiwTdtas?si=lqRkE7c8GqWh9fl7
+[Ver video en YouTube]https://youtu.be/yZF9emVTG_I?si=ShWilIyk8f5ccVXu
 
 
 
