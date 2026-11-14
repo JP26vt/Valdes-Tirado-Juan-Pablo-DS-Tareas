@@ -25,9 +25,9 @@ key.
 
 
 ## Imagenes
+<img width="1248" height="492" alt="Captura de pantalla 2026-11-13 184547" src="https://github.com/user-attachments/assets/90973c97-9e47-46c5-af7b-212e79cd7fd8" />
+<img width="938" height="551" alt="Captura de pantalla 2026-11-13 184605" src="https://github.com/user-attachments/assets/8330f79f-68b4-443c-acb1-7e105b840c8c" />
 
-<img width="712" height="336" alt="Captura de pantalla 2026-11-11 173344" src="https://github.com/user-attachments/assets/18cbaccc-80b3-4b17-a330-8565480e7b6f" />
-<img width="1349" height="621" alt="Captura de pantalla 2026-11-11 173423" src="https://github.com/user-attachments/assets/ddb813e2-426f-498a-a595-6e6ae7553c32" />
 
 
 
