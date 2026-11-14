@@ -21,7 +21,7 @@ key.
 
 
 ## Código
-[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Codigo/Main.txt)
+[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Calculadora%20Huella%20Ecologica/Codigo/Main.txt)
 
 
 ## Imagenes
