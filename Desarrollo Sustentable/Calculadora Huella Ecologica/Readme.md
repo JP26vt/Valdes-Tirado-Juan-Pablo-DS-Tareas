@@ -59,7 +59,7 @@ Creo que la estrategia que más ayudaría es la empresa socialmente responsable.
 Durante el próximo mes voy a reducir el consumo de carne: pasaré de comerla toda la semana a comerla solo cuatro días, y los otros tres la sustituiré por frijoles, lentejas, huevo o pescado local. Elegí esta acción porque la alimentación es una de las áreas que más pesan en mi huella y es algo que puedo cambiar yo mismo. Mi transporte (unos 90 km diarios en camión) depende de la distancia a la escuela y no puedo cambiarlo en un mes.
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Resultados/Resultados%20de%20Encuesta%20local%20o%20global.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Calculadora%20Huella%20Ecologica/Resultados/Resultados%20de%20la%20Calculadora%20huella%20ecol%C3%B3gica.pdf)
 
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
