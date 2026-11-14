@@ -35,7 +35,7 @@ key.
 
 ## Video del funcionamiento
 
-[Readme](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Video/Readme.txt)
+[Readme](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/tree/main/Desarrollo%20Sustentable/Calculadora%20Huella%20Ecologica/Video)
 
 [Ver video en YouTube]https://youtu.be/yZF9emVTG_I?si=ShWilIyk8f5ccVXu
 
