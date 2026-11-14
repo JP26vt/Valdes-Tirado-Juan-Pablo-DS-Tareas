@@ -42,23 +42,21 @@ key.
 
 
 ## Conclusiones
-En esta práctica construimos una calculadora de huella ecológica que conecta una página web con Make y una inteligencia artificial. El flujo completo funcionó así: la página envía las respuestas del cuestionario por un webhook, el Make AI Agent estima la huella y el Webhook Response devuelve el resultado como texto plano. Así vimos cómo se puede automatizar un análisis ambiental con herramientas de bajo código, sin programar un servidor propio.
+En esta práctica construi una calculadora de huella ecológica que conecta una página web con Make y una inteligencia artificial. El flujo completo funcionó así: la página envía las respuestas del cuestionario por un webhook, el Make AI Agent estima la huella y el Webhook Response devuelve el resultado como texto plano. Así es cómo se puede automatizar un análisis ambiental con herramientas de bajo código, sin programar un servidor propio.
 
 ##Preguntas de reflexion
-1. ¿El consumo de su comunidad es más local o más global? ¿En qué productos se nota más?
-Vimos que el consumo sigue siendo más local que global, aunque lo global va creciendo. En México 80.13% de los ingresos del e-commerce vienen de compras nacionales y solo 19.87% de ventas transfronterizas, así que la mayor parte del dinero todavía se queda en tiendas del país. Lo local se nota más en la comida, porque es lo que la gente compra en mercados, tianguis y tiendas de barrio por frescura y cercanía.
+1. ¿Qué área de su estilo de vida genera la mayor huella? Son las veces que como carne que es a diario, a diferencia de los demás campos ya que no son campos que ocurran muy recurrente en mi vida, no puedo coincidir con el equipo por que no hay, lo hice solo, así que la respuesta es de acuerdo a mi huella.
+   
+2. ¿Por qué el aire acondicionado pesa tanto en la huella de una persona en Mazatlán? ¿Qué alternativas hay? Mazatlán es una localidad muy calurosa: CFE le asigna tarifa de verano según la temperatura media mínima, y la tarifa 1F, la de mayor subsidio, corresponde a localidades con temperatura media mínima de verano de 33 °C, donde se necesita acondicionamiento de aire. Eso significa que el aire acondicionado funciona muchas horas al día y varios meses al año. Además, cada grado que se baja el termostato puede aumentar el consumo hasta 8%, y el consumo doméstico puede subir hasta 30% en verano.
+ 
+3.  ¿Qué tan cerca estuvo la estimación de la IA de la calculadora oficial? ¿A qué se debe la
+diferencia? La calculadora de make me dio 1.8 tierras mientras que la otra calculadora me dio 3 planetas pero es importante destacar que en la otra calculadora hay mas preguntas que responder y aun mas criterios que cubrir, esta es una practica mientras que la otra calculadora es oficial.
 
-2. ¿Qué efecto tiene en el PIB y en el empleo de Mazatlán que las personas compren en apps internacionales?
-El PIB mide lo que se produce dentro de un territorio, y cuando compramos en una app extranjera el dinero se va a una empresa de otro país y no paga sueldos, rentas ni proveedores de Mazatlán. Se ha señalado que una parte creciente del gasto de los mexicanos en línea termina fuera del país, y eso quiere decir que aporta menos a la economía local. Además, Amazon y Mercado Libre concentran más del 85% de las transacciones digitales en México.
+4. ¿Qué estrategia económica ayudaría más a reducir la huella de mi comunidad?
+Creo que la estrategia que más ayudaría es la empresa socialmente responsable. Mazatlán es una ciudad turística y pesquera donde hoteles, restaurantes, plantas procesadoras y comercios concentran buena parte del consumo de energía, sobre todo por el aire acondicionado y la refrigeración. Si esas empresas instalan paneles solares, usan equipos eficientes y reducen el plástico de un solo uso, el efecto es mucho mayor que el de una sola casa, porque un cambio se multiplica en miles de clientes y trabajadores.
 
-3. ¿Qué impacto ambiental tiene el transporte y el empaque de lo que se compra en línea desde otro país?
-Cada envío a domicilio genera en promedio entre 181 y 229 gramos de CO2, y sube hasta 12% si es exprés. Cuando el producto viene de otro país, el transporte es todavía más contaminante, porque se usan aviones, barcos y camiones. Se ha señalado que el transporte aéreo se usa mucho para llevar ropa barata desde China a consumidores de más de 150 mercados.
-
-4. ¿Coincidieron los porcentajes de la IA con los de Sheets? ¿Qué aprendieron sobre verificar a la IA?
-Para verificar, calculé en Sheets los porcentajes de dos preguntas con la fórmula COUNTIF y los comparé con los que puso la IA en su reporte. Esta comparación sirve para ver si la IA contó bien las respuestas de las 20 personas, porque ella solo recibe un texto con todas las filas y no hace la cuenta como una hoja de cálculo. Aprendí que una IA puede equivocarse al contar o al redondear aunque su reporte se vea muy seguro y bien redactado.
-
-5. ¿Qué acción concreta propondrían para impulsar el consumo local en su colonia?
-Propongo organizar un tianguis o mercado local una vez al mes en el parque o la cancha de la colonia, con vecinos que vendan comida, productos hechos en casa y artesanías. Se pediría permiso al comité de vecinos y se avisaría por los grupos de WhatsApp y las redes sociales de la colonia. También se podría hacer un directorio digital con los negocios de la zona, con su ubicación y su teléfono, para que la gente los encuentre fácil.
+5. ¿Qué acción concreta haré durante el próximo mes y cómo mediré si funcionó?
+Durante el próximo mes voy a reducir el consumo de carne: pasaré de comerla toda la semana a comerla solo cuatro días, y los otros tres la sustituiré por frijoles, lentejas, huevo o pescado local. Elegí esta acción porque la alimentación es una de las áreas que más pesan en mi huella y es algo que puedo cambiar yo mismo. Mi transporte (unos 90 km diarios en camión) depende de la distancia a la escuela y no puedo cambiarlo en un mes.
 
 ## Resultados
 [Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Encuesta%20local/Resultados/Resultados%20de%20Encuesta%20local%20o%20global.pdf)
