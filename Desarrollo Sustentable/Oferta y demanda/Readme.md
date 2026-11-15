@@ -38,7 +38,7 @@ Make y sus herramientas
 
 ## Video del funcionamiento
 
-[Readme](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/tree/main/Desarrollo%20Sustentable/Huella%20energetica/Video)
+[Readme](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/tree/main/Desarrollo%20Sustentable/Oferta%20y%20demanda/Video)
 
 [Ver video en YouTube]https://youtu.be/73fWhuESxQY?si=NVZ-p-2CVh7_rjlu
 
