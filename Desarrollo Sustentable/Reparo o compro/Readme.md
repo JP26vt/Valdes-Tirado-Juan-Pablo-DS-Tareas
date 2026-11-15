@@ -66,7 +66,7 @@ Los tres factores influyen, y se refuerzan entre sí. El primero es el costo. Mu
 5. ¿Qué alternativas proponen para cambiar las pautas de consumo de su familia?
 Pues en realidad no se puede hacer mucho por el caso de obsolescencia, aun que una muy buena solución seria aplicar garantías y reportar fallos directamente con los vendedores, si el fallo llega a ser técnico por si solo.
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Oferta%20y%20demanda/Resultados/Resultados_Simulador_Oferta_Demanda.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Reparo%20o%20compro/Resultados/Resultados_Reparo_o_Compro.pdf)
 
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
