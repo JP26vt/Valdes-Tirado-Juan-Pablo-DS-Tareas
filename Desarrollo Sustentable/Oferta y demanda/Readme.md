@@ -64,7 +64,7 @@ La principal ventaja es que el productor se entera de un cambio en el mercado en
 En general, no. El precio de mercado refleja lo que cuesta producir y llevar el camarón al consumidor (combustible, mano de obra, alimento, transporte, ganancia) y lo que la gente está dispuesta a pagar, pero casi nunca incluye el daño que esa producción causa al ambiente. En economía a esos costos que no se pagan en el precio se les llama externalidades negativas: los provoca el productor, pero los asume la sociedad y la naturaleza.
 
 ## Resultados
-[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Huella%20energetica/Resultados/Resultados%20Huella%20Energ%C3%A9tica.pdf)
+[Resultados.pdf](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Oferta%20y%20demanda/Resultados/Resultados_Simulador_Oferta_Demanda.pdf)
 
 
 Este documento contiene la descripción de la práctica, objetivos y procedimientos realizados.
