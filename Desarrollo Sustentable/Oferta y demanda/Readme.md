@@ -23,7 +23,7 @@ Make y sus herramientas
 
 
 ## Código
-[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Huella%20energetica/Codigo/Main.txt)
+[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Oferta%20y%20demanda/Codigo/Main.txt)
 
 
 ## Imagenes
