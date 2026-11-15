@@ -1,1 +1,407 @@
-
+{
+    "name": "Reparo o compro",
+    "flow": [
+        {
+            "id": 1,
+            "module": "telegram:WatchUpdates",
+            "version": 1,
+            "parameters": {
+                "__IMTHOOK__": 3064326
+            },
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 0
+                },
+                "setupValidation": {
+                    "result": {
+                        "valid": true,
+                        "fields": []
+                    },
+                    "version": 1,
+                    "configuration": "dbc10e148e5ee6bd"
+                },
+                "restore": {
+                    "parameters": {
+                        "__IMTHOOK__": {
+                            "data": {
+                                "editable": "false"
+                            },
+                            "label": "Reparo o compro"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTHOOK__",
+                        "type": "hook:telegramapi",
+                        "label": "Webhook",
+                        "required": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "module": "ai-local-agent:RunLocalAIAgent",
+            "version": 0,
+            "parameters": {
+                "makeConnectionId": 10614128
+            },
+            "filter": {
+                "name": "Solo mensajes de texto",
+                "conditions": [
+                    [
+                        {
+                            "a": "{{1.message.text}}",
+                            "o": "exist"
+                        }
+                    ]
+                ]
+            },
+            "mapper": {
+                "files": [],
+                "message": "Aparato y falla:{{1.message.text}}",
+                "threadId": "",
+                "outputType": "text",
+                "tokenLimit": "50",
+                "modelConfig": {
+                    "timeout": "",
+                    "recursionLimit": "300",
+                    "aiCompactionEnabled": true,
+                    "iterationsFromHistoryCount": "10"
+                },
+                "defaultModel": "medium",
+                "systemPrompt": "Eres un asesor de reparacion de aparatos para alumnos de Desarrollo Sustentable del TecNM en\r\nMazatlan, Sinaloa.\r\nEl usuario describe un aparato y su falla. Responde en texto plano (sin asteriscos, sin\r\nmarkdown), en espanol, con este formato:\r\nAparato: [que es]\r\nCausa probable: [1 linea]\r\nTipo de obsolescencia: [planificada / percibida / ninguna, con 1 linea de explicacion]\r\n¿Tiene reparacion?: [si / no / depende]\r\nCosto aproximado de reparacion: [rango en pesos mexicanos]\r\nCosto aproximado de uno nuevo: [rango en pesos mexicanos]\r\nImpacto si se desecha: [materiales que contiene y por que contamina]\r\n\r\n\r\nRECOMENDACION: [REPARAR / REEMPLAZAR / DONAR O RECICLAR, con 1 linea de razon]\r\nQue hacer: [donde repararlo o a donde llevarlo si se desecha]\r\nAclara que los costos son aproximados y que conviene pedir una cotizacion.\r\nSi el mensaje no describe un aparato con falla, responde: &quot;Describe el aparato y su falla, por\r\nejemplo: laptop de 4 años que se calienta y se apaga.&quot;",
+                "promptCaching": "none",
+                "fallbackEnabled": false,
+                "reasoningEffort": "low"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 0
+                },
+                "setupValidation": {
+                    "result": {
+                        "valid": true,
+                        "fields": []
+                    },
+                    "version": 1,
+                    "configuration": "df0c4daa77ed0da8"
+                },
+                "restore": {
+                    "expect": {
+                        "files": {
+                            "mode": "chose"
+                        },
+                        "outputType": {
+                            "label": "Text"
+                        },
+                        "defaultModel": {
+                            "mode": "chose",
+                            "label": "MediumModel: gpt-5-nano. Reasoning: low. A balanced, quick choice for clearly defined tasks needing reliable answers rather than deep analysis"
+                        },
+                        "promptCaching": {
+                            "label": "Automatic (always on)"
+                        },
+                        "reasoningEffort": {
+                            "mode": "chose",
+                            "label": "Low"
+                        }
+                    },
+                    "parameters": {
+                        "makeConnectionId": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "ai-provider"
+                            },
+                            "label": "Make's AI Provider (default)"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "makeConnectionId",
+                        "type": "account:ai-provider,openai-gpt-3,anthropic-claude,gemini-ai-q9zyjp,ai-agent-foundry-openai,ai-agent-foundry-non-openai,mistral-ai,cohere,groq,ai-agent-xai,amazon-bedrock,ai-agent-openai-compatible",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "reasoningEffort",
+                        "type": "select",
+                        "label": "Reasoning effort",
+                        "validate": {
+                            "enum": [
+                                "low",
+                                "medium",
+                                "high"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "defaultModel",
+                        "type": "select",
+                        "label": "Model",
+                        "required": true
+                    },
+                    {
+                        "name": "tokenLimit",
+                        "type": "number",
+                        "label": "Maximum output length (%)",
+                        "validate": {
+                            "max": 100,
+                            "min": 20
+                        }
+                    },
+                    {
+                        "name": "promptCaching",
+                        "type": "select",
+                        "label": "Prompt caching",
+                        "validate": {
+                            "enum": [
+                                "none"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "fallbackEnabled",
+                        "type": "boolean",
+                        "label": "Enable fallback connection",
+                        "required": true
+                    },
+                    {
+                        "name": "systemPrompt",
+                        "type": "text",
+                        "label": "Instructions"
+                    },
+                    {
+                        "name": "message",
+                        "type": "text",
+                        "label": "Input",
+                        "required": true
+                    },
+                    {
+                        "name": "files",
+                        "spec": [
+                            {
+                                "name": "fileName",
+                                "type": "filename",
+                                "label": "File name",
+                                "semantic": "file:name"
+                            },
+                            {
+                                "name": "data",
+                                "type": "buffer",
+                                "label": "Data",
+                                "semantic": "file:data"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "Input files"
+                    },
+                    {
+                        "name": "threadId",
+                        "type": "text",
+                        "label": "Conversation ID",
+                        "validate": {
+                            "max": 256
+                        }
+                    },
+                    {
+                        "name": "modelConfig",
+                        "spec": [
+                            {
+                                "name": "recursionLimit",
+                                "type": "number",
+                                "label": "Steps per agent call"
+                            },
+                            {
+                                "name": "iterationsFromHistoryCount",
+                                "type": "number",
+                                "label": "Maximum conversation history"
+                            },
+                            {
+                                "name": "timeout",
+                                "type": "number",
+                                "label": "Step timeout",
+                                "validate": {
+                                    "max": 600,
+                                    "min": 120
+                                }
+                            },
+                            {
+                                "name": "aiCompactionEnabled",
+                                "type": "boolean",
+                                "label": "Enable compaction",
+                                "required": true
+                            }
+                        ],
+                        "type": "collection",
+                        "label": "Model configuration"
+                    },
+                    {
+                        "name": "outputType",
+                        "type": "select",
+                        "label": "Response format",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "text",
+                                "make-schema",
+                                "udt-schema"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "tools": []
+        },
+        {
+            "id": 3,
+            "module": "telegram:SendReplyMessage",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 12330985
+            },
+            "mapper": {
+                "text": "{{2.response}}",
+                "chatId": "{{1.message.chat.id}}",
+                "parseMode": "",
+                "replyMarkup": "",
+                "messageThreadId": "",
+                "replyToMessageId": "",
+                "replyMarkupAssembleType": "reply_markup_enter"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 600,
+                    "y": 0
+                },
+                "setupValidation": {
+                    "result": {
+                        "valid": true,
+                        "fields": []
+                    },
+                    "version": 1,
+                    "configuration": "a70944540b5dd13"
+                },
+                "restore": {
+                    "expect": {
+                        "parseMode": {
+                            "label": "Empty"
+                        },
+                        "disableNotification": {
+                            "mode": "chose"
+                        },
+                        "replyMarkupAssembleType": {
+                            "label": "Enter the Reply Markup"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "telegram"
+                            },
+                            "label": "Reparo o compro"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:telegram",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "chatId",
+                        "type": "text",
+                        "label": "Chat ID",
+                        "required": true
+                    },
+                    {
+                        "name": "text",
+                        "type": "text",
+                        "label": "Text",
+                        "required": true
+                    },
+                    {
+                        "name": "messageThreadId",
+                        "type": "number",
+                        "label": "Message Thread ID"
+                    },
+                    {
+                        "name": "parseMode",
+                        "type": "select",
+                        "label": "Parse Mode",
+                        "validate": {
+                            "enum": [
+                                "Markdown",
+                                "HTML"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "disableNotification",
+                        "type": "boolean",
+                        "label": "Disable Notifications"
+                    },
+                    {
+                        "name": "disableWebPagePreview",
+                        "type": "boolean",
+                        "label": "Disable Link Previews"
+                    },
+                    {
+                        "name": "replyToMessageId",
+                        "type": "number",
+                        "label": "Original Message ID"
+                    },
+                    {
+                        "name": "replyMarkupAssembleType",
+                        "type": "select",
+                        "label": "Enter/Assemble the Reply Markup Field",
+                        "validate": {
+                            "enum": [
+                                "reply_markup_enter",
+                                "reply_markup_assemble"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "replyMarkup",
+                        "type": "text",
+                        "label": "Reply Markup"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "instant": true,
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "maxErrors": 3,
+            "autoCommit": true,
+            "autoCommitTriggerLast": true,
+            "sequential": false,
+            "slots": null,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false,
+            "freshVariables": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "us2.make.com",
+        "notes": []
+    }
+}
