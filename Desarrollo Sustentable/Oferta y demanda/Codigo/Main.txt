@@ -1,1 +1,283 @@
+##Arduino IDE
+const int PIN_DEMANDA = A0;
+const int PIN_OFERTA = A1;
+const int PIN_LED = 13;
+const unsigned long ESPERA_ALERTA = 60000; // maximo 1 alerta por minuto
 
+bool enEscasez = false;
+unsigned long ultimaAlerta = 0;
+bool primeraAlerta = true;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(PIN_LED, OUTPUT);
+  mostrar("OK");
+}
+
+void loop() {
+  int demanda = map(analogRead(PIN_DEMANDA), 0, 1023, 10, 90);
+  int oferta = map(analogRead(PIN_OFERTA), 0, 1023, 10, 90);
+
+  // Modelo lineal: demanda P = a - Q ; oferta P = Q - b
+  int a = 100 + demanda;
+  int b = oferta - 50;
+  int precio = ((a - b) / 2) * 4; // pesos por kilo
+
+  Serial.print("Demanda: "); Serial.print(demanda);
+  Serial.print(" Oferta: "); Serial.print(oferta);
+  Serial.print(" Precio: $"); Serial.println(precio);
+  mostrar("$" + String(precio));
+
+  bool escasez = (demanda - oferta) >= 25;
+  digitalWrite(PIN_LED, escasez ? HIGH : LOW);
+
+  if (escasez && !enEscasez &&
+      (primeraAlerta || millis() - ultimaAlerta > ESPERA_ALERTA)) {
+    enviarAMake(demanda, oferta, precio);
+    ultimaAlerta = millis();
+    primeraAlerta = false;
+  }
+  enEscasez = escasez;
+  delay(500);
+}
+
+// La R3 no tiene matriz de LEDs: el texto sale por el Monitor Serial
+void mostrar(String texto) {
+  Serial.print("[Pantalla] ");
+  Serial.println(texto);
+}
+
+// Entrega la alerta por USB; el script de Python la manda a Make
+void enviarAMake(int demanda, int oferta, int precio) {
+  Serial.print("ALERTA,");
+  Serial.print(demanda); Serial.print(",");
+  Serial.print(oferta); Serial.print(",");
+  Serial.println(precio);
+}
+
+##Python
+
+import serial
+import requests
+
+# ====== DATOS QUE CADA EQUIPO DEBE CAMBIAR ======
+PUERTO = "COM3"   # el que ves en Arduino IDE: Herramientas > Puerto
+URL_MAKE = "https://hook.us2.make.com/7soc1hcifehdxuthjgytxqza12qrvrp4"
+# ================================================
+
+arduino = serial.Serial(PUERTO, 9600, timeout=1)
+print("Escuchando al Arduino... (Ctrl+C para salir)")
+
+while True:
+    linea = arduino.readline().decode("utf-8", errors="ignore").strip()
+    if not linea:
+        continue
+    print(linea)
+
+    if linea.startswith("ALERTA,"):
+        _, demanda, oferta, precio = linea.split(",")
+        r = requests.get(URL_MAKE, params={
+            "demanda": demanda,
+            "oferta": oferta,
+            "precio": precio,
+            "estado": "escasez",
+        }, timeout=10)
+        print("Alerta enviada a Make, respuesta:", r.status_code)
+
+Make Blueprint
+
+{
+    "name": "Mercado Equipo 2",
+    "flow": [
+        {
+            "id": 1,
+            "module": "gateway:CustomWebHook",
+            "version": 1,
+            "parameters": {
+                "hook": 3065861,
+                "maxResults": 1
+            },
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 0
+                },
+                "setupValidation": {
+                    "version": 1,
+                    "configuration": "b23e7db44862f6e8",
+                    "result": {
+                        "valid": true,
+                        "fields": []
+                    }
+                },
+                "restore": {
+                    "parameters": {
+                        "hook": {
+                            "data": {
+                                "editable": "true"
+                            },
+                            "label": "Mercado Equipo2"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "hook",
+                        "type": "hook:gateway-webhook",
+                        "label": "Webhook",
+                        "required": true
+                    },
+                    {
+                        "name": "maxResults",
+                        "type": "number",
+                        "label": "Maximum number of results"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "module": "telegram:SendReplyMessage",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 12340046
+            },
+            "mapper": {
+                "text": "ALERTA DE ESCASEZ\r\nDemanda: {{1.demanda}}\r\nOferta: {{1.`amp;oferta`}}\r\nPrecio de equilibrio: ${{1.`amp;precio`}} por kg\r\nLa demanda supera a la oferta: el precio sube.",
+                "chatId": "6874110666",
+                "parseMode": "",
+                "replyMarkup": "",
+                "messageThreadId": "",
+                "replyToMessageId": "",
+                "replyMarkupAssembleType": "reply_markup_enter"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 0
+                },
+                "setupValidation": {
+                    "result": {
+                        "valid": true,
+                        "fields": []
+                    },
+                    "version": 1,
+                    "configuration": "4f5d288e7e7803f9"
+                },
+                "restore": {
+                    "expect": {
+                        "parseMode": {
+                            "label": "Empty"
+                        },
+                        "disableNotification": {
+                            "mode": "chose"
+                        },
+                        "replyMarkupAssembleType": {
+                            "label": "Enter the Reply Markup"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "telegram"
+                            },
+                            "label": "Mercado equipo"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:telegram",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "chatId",
+                        "type": "text",
+                        "label": "Chat ID",
+                        "required": true
+                    },
+                    {
+                        "name": "text",
+                        "type": "text",
+                        "label": "Text",
+                        "required": true
+                    },
+                    {
+                        "name": "messageThreadId",
+                        "type": "number",
+                        "label": "Message Thread ID"
+                    },
+                    {
+                        "name": "parseMode",
+                        "type": "select",
+                        "label": "Parse Mode",
+                        "validate": {
+                            "enum": [
+                                "Markdown",
+                                "HTML"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "disableNotification",
+                        "type": "boolean",
+                        "label": "Disable Notifications"
+                    },
+                    {
+                        "name": "disableWebPagePreview",
+                        "type": "boolean",
+                        "label": "Disable Link Previews"
+                    },
+                    {
+                        "name": "replyToMessageId",
+                        "type": "number",
+                        "label": "Original Message ID"
+                    },
+                    {
+                        "name": "replyMarkupAssembleType",
+                        "type": "select",
+                        "label": "Enter/Assemble the Reply Markup Field",
+                        "validate": {
+                            "enum": [
+                                "reply_markup_enter",
+                                "reply_markup_assemble"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "replyMarkup",
+                        "type": "text",
+                        "label": "Reply Markup"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "instant": true,
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "maxErrors": 3,
+            "autoCommit": true,
+            "autoCommitTriggerLast": true,
+            "sequential": false,
+            "slots": null,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false,
+            "freshVariables": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "us2.make.com",
+        "notes": []
+    }
+}
