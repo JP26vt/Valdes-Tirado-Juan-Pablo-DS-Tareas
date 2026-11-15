@@ -40,7 +40,7 @@ Make y sus herramientas
 
 ## Video del funcionamiento
 
-[Readme](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/tree/main/Desarrollo%20Sustentable/Oferta%20y%20demanda/Video)
+[Readme](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/tree/main/Desarrollo%20Sustentable/Reparo%20o%20compro/Video)
 
 [Ver video en YouTube]https://youtu.be/cq8AsjuW0O8?si=nW7xVQjOGqI5guPf
 
