@@ -24,11 +24,12 @@ Make y sus herramientas
 
 
 ## Código
-[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Oferta%20y%20demanda/Codigo/Main.txt)
+[Main.txt](https://github.com/JP26vt/Valdes-Tirado-Juan-Pablo-DS-Tareas/blob/main/Desarrollo%20Sustentable/Reparo%20o%20compro/Codigo/Main.txt)
 
 
 ## Imagenes
-<img width="1151" height="432" alt="image" src="https://github.com/user-attachments/assets/b3a3dc6c-7383-4054-b2af-627e298f660e" />
+<img width="1240" height="401" alt="Captura de pantalla 2026-11-14 205854" src="https://github.com/user-attachments/assets/fab11794-b623-4882-a561-4d5906eb56a2" />
+
 
 
 
